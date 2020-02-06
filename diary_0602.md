@@ -15,7 +15,7 @@ The Entity-Relationship-Model is a way to organize different entities (objects, 
 
 ### Datatypes
 a list of some datatypes:
-varchar, int, biging, numeric, decimal, blob (binary large object), clob (character large object), float, double, date, time, timestamp, boolean, interval
+```varchar```, ```int```, ```bigint```, ```numeric```, ```decimal```, ```blob``` (binary large object), ```clob``` (character large object), ```float```, ```double```, ```date```, ```time```, ```timestamp```, ```boolean```, ```interval```
 
 ### Relationships
 There are different relationships between entities. 
@@ -28,4 +28,10 @@ The different grades of relationships are:
 * ternary
 
 ### Textual Presentation
-Apart from the ER-model, there is also a way to present the data as text. Here, it is important to not only write down the entity and 
+Apart from the ER-model, there is also a way to present the data as text. Here, it is important to not only write down the entity and their attributes, but also the datatype of the certain attribute. Example:
+```
+Entity (Attribute1:Datatype1, Attribute2:Datatype2, ... , AttributeN:DatatypeN)
+```
+
+### Exercises
+As exercises we tried to create ER-models for two different exercises, both individually and as a group
