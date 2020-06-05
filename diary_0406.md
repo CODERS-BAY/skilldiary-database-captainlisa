@@ -31,3 +31,10 @@ WHERE a.employee_id = b.manager_id;
 ```
 
 * with ```CONCAT()``` you can concatenate two strings together as seen above.
+
+* small recap:
+  - inner join ==> sucht nach werten die auf beiden seiten gleich sind
+    left join ==> sucht nach werten, die links größer sind
+    right join ==> sucht nach werten, die rechts größer sind
+    outer join ==> sucht nach werten, die nicht gleich sind
+    ==> es geht also immer um die logischen operatoren im ON statement
